@@ -1,0 +1,12 @@
+cost = int(input("B?n dã chi bao nhiêu ti?n?:"))
+if cost > 75 and cost < 99:
+    print("B?n Ðu?c Gi?m 15$")
+    print("B?n C?n Ph?i Tr?",cost - 15, "$")
+if cost < 75:
+    print("B?n Không Ðu?c Gi?m Giá")
+if cost > 100 and cost < 149:
+    print("B?n Ðu?c Gi?m 25$")
+    print("B?n C?n Ph?i Tr?",cost - 25, "$")
+if cost > 150:
+    print("B?n Ðu?c Gi?m 50$")
+    print("B?n C?n Ph?i Tr?",cost - 50, "$")
